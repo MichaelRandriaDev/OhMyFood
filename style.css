@@ -39,7 +39,7 @@ header a {
 }
 
 #location i {
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 #map {
@@ -54,9 +54,14 @@ header a {
   padding: 20px 30px;
   font-weight: bold;
   color: white;
-  border-radius: 25px;
+  border-radius: 30px;
   background: linear-gradient(to bottom right, var(--fuschia), var(--violet));
   border: none;
+}
+
+#map button:hover {
+  background: linear-gradient(to bottom right, var(--violet), var(--fuschia));
+  cursor: pointer;
 }
 
 #functioning h2 {
@@ -79,6 +84,11 @@ header a {
   border-radius: 15px;
   padding: 10px 20px;
   background-color: #f1f1f1;
+}
+
+.nav_step li:hover {
+  background: #f4ebff;
+  cursor: pointer;
 }
 
 .nav_step li i {
@@ -124,6 +134,7 @@ header a {
 #restaurants_list article {
   background-color: white;
   border-radius: 25px;
+  box-shadow: 5px 5px 20px 0px lightgray;
 }
 
 #restaurants_list img {
