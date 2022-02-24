@@ -29,6 +29,12 @@ header a {
   color: black;
 }
 
+header .arrow {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+}
+
 #location {
   display: flex;
   justify-content: center;
@@ -96,6 +102,10 @@ header a {
   color: #313131;
 }
 
+.nav_step li:hover i {
+  color: var(--violet);
+}
+
 .nav_step .nav_step_num {
   border: 2px none;
   border-radius: 100%;
@@ -149,6 +159,42 @@ header a {
   justify-content: space-between;
   align-items: center;
   margin: 0px 10px;
+}
+
+.menu {
+  background: lightgray;
+  margin: 0px -20px;
+  border-radius: 25px 25px 0px 0px;
+  height: 720px;
+}
+
+.menu_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 40px;
+  margin-bottom: 60px;
+}
+
+.btn_order {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.btn_order button {
+  padding: 20px 30px;
+  font-weight: bold;
+  font-size: 90%;
+  color: white;
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, var(--fuschia), var(--violet));
+  border: none;
 }
 
 footer {
