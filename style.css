@@ -22,6 +22,7 @@ h2 {
 
 header h1 {
   text-align: center;
+  margin: 10px 0px;
 }
 
 header a {
@@ -32,7 +33,8 @@ header a {
 header .arrow {
   display: inline-block;
   position: absolute;
-  top: 35px;
+  top: 25px;
+  font-size: larger;
 }
 
 #location {
@@ -76,10 +78,9 @@ header .arrow {
 
 .nav_step {
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  margin-right: 45px;
-  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
 }
 
 .nav_step li {
@@ -88,8 +89,13 @@ header .arrow {
   align-items: center;
   border: none;
   border-radius: 15px;
-  padding: 10px 20px;
   background-color: #f1f1f1;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.nav_step li p {
+  width: 178px;
 }
 
 .nav_step li:hover {
@@ -110,7 +116,6 @@ header .arrow {
   border: 2px none;
   border-radius: 100%;
   padding: 5px 10px;
-  margin-left: -35px;
   background-color: var(--violet);
   color: white;
 }
@@ -119,7 +124,6 @@ header .arrow {
   background-color: #f1f1f1;
   margin-left: -20px;
   margin-right: -20px;
-  height: 400px;
 }
 
 #restaurants h2 {
@@ -129,16 +133,17 @@ header .arrow {
 
 #restaurants_list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-left: 40px;
   margin-right: 40px;
   justify-content: space-between;
 }
 
 #restaurants_list a {
-  width: 24%;
+  width: 100%;
   text-decoration: none;
   color: black;
+  margin-bottom: 20px;
 }
 
 #restaurants_list article {
@@ -161,34 +166,134 @@ header .arrow {
   margin: 0px 10px;
 }
 
+.banner_1 {
+  display: block;
+  height: 300px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -30px;
+  background: url(../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -100;
+}
+
+.banner_2 {
+  display: block;
+  height: 300px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -30px;
+  background: url(../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -100;
+}
+
+.banner_3 {
+  display: block;
+  height: 300px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -30px;
+  background: url(../img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -100;
+}
+
+.banner_4 {
+  display: block;
+  height: 300px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -30px;
+  background: url(../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -100;
+}
+
 .menu {
-  background: lightgray;
-  margin: 0px -20px;
-  border-radius: 25px 25px 0px 0px;
-  height: 720px;
+  background: #f1f1f1;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-radius: 35px 35px 0px 0px;
 }
 
 .menu_title {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-bottom: -20px;
+}
+
+.menu_title h2 {
+  padding: 0px 10px;
+  font-family: "Shrikhand";
+  font-size: 190%;
+}
+
+.menu_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_list h3 {
+  font-weight: 395;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.line {
+  border-bottom: solid var(--turquoise);
+  width: 10%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.menu_list .food_bloc {
+  border: none;
+  margin: 10px 0px;
+  background: white;
+  border-radius: 25px;
+  padding-left: 20px;
+  width: 450px;
+  height: 90px;
+}
+
+.menu_list .food_bloc .last__line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -20px;
+  margin-right: 30px;
+  font-weight: 390;
+}
+
+.menu_list .food_bloc .cross {
+  display: none;
 }
 
 .main_menu {
   display: flex;
-  justify-content: space-around;
-  margin: 0px 40px;
-  margin-bottom: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+  margin-bottom: 19px;
 }
 
 .btn_order {
   display: flex;
   justify-content: center;
-  margin-bottom: 0px;
 }
 
 .btn_order button {
   padding: 20px 30px;
+  margin-bottom: 30px;
   font-weight: bold;
   font-size: 90%;
   color: white;
