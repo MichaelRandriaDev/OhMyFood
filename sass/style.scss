@@ -144,6 +144,8 @@ header .arrow
         padding: 5px 10px;
         background-color: var(--violet);
         color: white;
+        position: absolute;
+        left: 75px;
 }
 
 
@@ -242,7 +244,6 @@ header .arrow
         background-size: cover;
         position: relative;
         z-index: -100;
-
 }
 
 .banner_4
@@ -256,7 +257,6 @@ header .arrow
         background-size: cover;
         position: relative;
         z-index: -100;
-
 }
 
 // MENU

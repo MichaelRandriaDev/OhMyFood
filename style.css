@@ -118,6 +118,8 @@ header .arrow {
   padding: 5px 10px;
   background-color: var(--violet);
   color: white;
+  position: absolute;
+  left: 75px;
 }
 
 #restaurants {
