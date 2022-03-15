@@ -113,6 +113,7 @@ header .arrow
         background-color: rgb(241, 241, 241);
         width: 300px;
         margin-bottom: 20px;
+        position: relative;
 }
 
 .nav_step li p
@@ -145,7 +146,7 @@ header .arrow
         background-color: var(--violet);
         color: white;
         position: absolute;
-        left: 75px;
+        left: -13px;
 }
 
 
@@ -156,7 +157,6 @@ header .arrow
         background-color: rgb(241, 241, 241);
         margin-left: -20px;
         margin-right: -20px;
-        // height: 400px;
 }
 
 #restaurants h2
@@ -202,7 +202,8 @@ header .arrow
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0px 10px;
+        margin-left: 20px;
+        margin-right: 20px;
 }
 
 // BANNIERE

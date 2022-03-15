@@ -1,0 +1,15 @@
+#restaurants_list
+{
+    flex-flow: row wrap;
+}
+
+#restaurants_list a
+{
+    width: 45%;
+    text-decoration: none;
+    color: black;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}

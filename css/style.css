@@ -92,6 +92,7 @@ header .arrow {
   background-color: #f1f1f1;
   width: 300px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .nav_step li p {
@@ -119,7 +120,7 @@ header .arrow {
   background-color: var(--violet);
   color: white;
   position: absolute;
-  left: 75px;
+  left: -13px;
 }
 
 #restaurants {
@@ -165,7 +166,8 @@ header .arrow {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .banner_1 {
