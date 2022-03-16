@@ -180,6 +180,20 @@ header .arrow
         text-decoration: none;
         color: black;
         margin-bottom: 20px;
+        position: relative;
+}
+
+#restaurants_list .new
+{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        border: solid 3px;
+        background-color: var(--turquoise);
+        padding: 0px 10px;
+        border: none;
+        color: rgb(45, 150, 127);
+        border-radius: 5px;
 }
 
 #restaurants_list article
