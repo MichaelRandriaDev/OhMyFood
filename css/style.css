@@ -172,6 +172,7 @@ header .arrow {
   background-color: white;
   border-radius: 25px;
   box-shadow: 5px 5px 20px 0px lightgray;
+  max-height: 500px;
 }
 
 #restaurants_list img {
@@ -284,7 +285,7 @@ header .arrow {
   border-radius: 25px;
   padding-top: 0.5px;
   padding-left: 20px;
-  width: 450px;
+  width: 100%;
   height: 90px;
   position: relative;
   transition: padding-right 450ms ease-in-out;
@@ -420,9 +421,9 @@ footer a {
   transform: translate(-50px);
 }
 
-.food_bloc:hover .last__line{
-  width: 77%
-}
+/* .food_bloc:hover .last__line{
+  width: 69%;
+} */
 
 .food_bloc:hover .fa-check-circle {
   transform: rotate(360deg);
