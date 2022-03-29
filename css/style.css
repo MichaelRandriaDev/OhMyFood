@@ -426,6 +426,10 @@ footer a {
   transform: translate(-50px);
 }
 
+.food_bloc:hover .price {
+  transform: translate(-70px);
+}
+
 .food_bloc:hover .fa-check-circle {
   transform: rotate(360deg);
 }
