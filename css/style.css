@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   padding: 0px 20px;
   font-weight: 450;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -279,27 +280,33 @@ header .arrow {
 }
 
 .menu_list .food_bloc {
+  display: block;
   border: none;
   margin: 10px 0px;
   background: white;
   border-radius: 25px;
-  padding-top: 0.5px;
   padding-left: 20px;
+  padding-bottom: 9px;
   height: 90px;
   position: relative;
   transition: padding-right 450ms ease-in-out;
   box-shadow: 5px 5px 20px 0px lightgray;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
 }
 
-.menu_list .food_bloc .last__line {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: -20px;
-  margin-right: 30px;
-  font-weight: 390;
-  overflow: hidden;
+.menu_list .food_bloc p {
+  font-weight: 350;
+}
+
+.menu_list .food_bloc .price {
+  display: block;
+  position: absolute;
+  top: 42px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 .main_menu {
@@ -399,13 +406,13 @@ footer a {
   align-items: center;
   background-color: #99E2D0;
   width: 50px;
-  height: 51px;
+  height: 62px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   position: absolute;
   padding: 20px;
   right: -51px;
-  top: 0;
+  top: 0px;
   opacity: 0;
   transition: transform 330ms ease-in-out;
 }
@@ -418,10 +425,6 @@ footer a {
   opacity: 1;
   transform: translate(-50px);
 }
-
-/* .food_bloc:hover .last__line{
-  width: 69%;
-} */
 
 .food_bloc:hover .fa-check-circle {
   transform: rotate(360deg);
