@@ -7,7 +7,7 @@
 body {
   margin: auto;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 14px;
   padding: 0px 20px;
   font-weight: 450;
   overflow-x: hidden;
@@ -287,12 +287,10 @@ header .arrow {
   border-radius: 25px;
   padding-left: 20px;
   padding-bottom: 9px;
-  height: 90px;
+  height: 80px;
   position: relative;
   transition: padding-right 450ms ease-in-out;
   box-shadow: 5px 5px 20px 0px lightgray;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
 }
 
@@ -307,6 +305,7 @@ header .arrow {
   right: 10px;
   width: 50px;
   height: 50px;
+  transition: transform 330ms ease-in-out;
 }
 
 .main_menu {
@@ -406,7 +405,7 @@ footer a {
   align-items: center;
   background-color: #99E2D0;
   width: 50px;
-  height: 62px;
+  height: 55px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   position: absolute;
@@ -428,6 +427,20 @@ footer a {
 
 .food_bloc:hover .price {
   transform: translate(-70px);
+}
+
+.food_bloc:hover .text {
+  width: 55%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.food_bloc:hover h4 {
+  width: 55%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .food_bloc:hover .fa-check-circle {
