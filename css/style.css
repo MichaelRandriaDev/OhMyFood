@@ -463,27 +463,15 @@ footer a {
   font-weight: bold;
 }
 
-@keyframes fill {
-  0% {
+@keyframes fill 
+{
+  from
+  {
     opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
+  } 
+  to
+  {
     opacity: 1;
-  }
-}
-
-@keyframes loader {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
   }
 }
 
@@ -499,14 +487,14 @@ footer a {
   animation: loader 1s ease-in-out 3s forwards;
 }
 
-@keyframes loader {
-  0% {
+@keyframes loader
+{
+  from
+  {
     opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
+  } 
+  to
+  {
     opacity: 0;
   }
 }
@@ -550,12 +538,15 @@ footer a {
   animation: spin 1s linear infinite;
 }
 
-@keyframes spin {
-  0%{
+@keyframes spin 
+{
+  0%
+  {
     transform: rotate(0deg);
   }
 
-  100%{
+  100%
+  {
     transform: rotate(360deg);
   }
 }
