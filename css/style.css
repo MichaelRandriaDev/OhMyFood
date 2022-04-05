@@ -333,7 +333,7 @@ header .arrow {
 }
 
   .btn_order button:hover {
-  filter: brightness(105%);
+  filter: brightness(114%);
   background: linear-gradient(to bottom right, var(--violet), var(--fuschia));
   box-shadow: 4px 4px 6px #aaa;
   cursor: pointer;
@@ -458,7 +458,9 @@ footer a {
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
   font-weight: bold;
 }
 
